@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export function Header() {
 	return (
-		<nav className="w-full bg-gray-100 h-8">
-			<ul className="justify-center flex flex-row">
+		<nav className="w-full bg-black h-11">
+			<ul className="justify-center flex flex-row text-white text-4xl">
 				<li className="px-6">
 					<Link href="/">
 						<p className="">Home</p>
